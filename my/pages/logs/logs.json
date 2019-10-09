@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看启动日志",
+  "usingComponents": {
+    "mp-tabbar": "../home/home"
+  },
+  "navigationBarBackgroundColor":"#00ff00"
+}

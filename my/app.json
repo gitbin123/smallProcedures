@@ -1,0 +1,49 @@
+{
+  "pages": [
+      "pages/index13/index13",
+    "pages/index12/index12",
+    "pages/index11/index11",
+    "pages/index10/index10",
+    "pages/index9/index9",
+    "pages/index8/index8",
+    "pages/index7/index7",
+    "pages/index6/index6",
+    "pages/index5/index5",
+    "pages/index4/index4",
+    "pages/index3/index3",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "custom-tab-bar/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "组件"
+      
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "接口"
+      }
+    ]
+  },
+   "usingComponents": {}
+}

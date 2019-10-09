@@ -1,0 +1,6 @@
+<!--components/myHeader/myHeader.wxml-->
+<view>
+{{myvalue}}
+<view><slot></slot></view>
+
+</view>

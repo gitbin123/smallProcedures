@@ -1,0 +1,15 @@
+<!--pages/index11/index11.wxml-->
+<navigator url="../index10/index10" open-type="navigate">
+跳转
+</navigator>
+<navigator url="../index10/index10" open-type="redirect">
+跳转1
+</navigator>
+<!-- 只能跳转tab -->
+<navigator url="../index/index" open-type="switchTab">
+跳转2
+</navigator>
+<navigator url="../index10/index10" open-type="reLaunch">
+跳转3
+</navigator>
+

@@ -1,0 +1,16 @@
+<!--components/bilibiliHeader/bilibiliHeader.wxml-->
+<view class="header">
+  <view class="header1">
+    <image style="width:140rpx;height:60rpx" src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2810627290,1080409091&fm=58&s=8197C732C535FA313E526557030030BB&bpow=121&bpoh=75"></image>
+  </view>
+   <view class="header2">
+   <input/>
+    <image style="width:40rpx;height:60rpx" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570616117792&di=d3ace8075196754e8c1f989ed29b8885&imgtype=0&src=http%3A%2F%2Fwww.gzscoop.gov.cn%2Fgzscoop%2Fxhtml%2Fimages%2Ftp45.png"></image>
+    </view>
+    <view class="header3">
+    <image style="width:54rpx;height:50rpx" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570616532142&di=5febf27a49ca65cc6a2cc138da1c50ce&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F00%2F94%2F68%2F58dcd6e2274f0_610.jpg"></image>
+    </view>
+     <view class="header4">
+     下载APP
+     </view>
+</view>

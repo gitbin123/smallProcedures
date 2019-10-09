@@ -1,0 +1,6 @@
+/* pages/index9/index9.wxss */
+image{
+  width: 100%;
+  height: 400px;
+  background: yellow
+}

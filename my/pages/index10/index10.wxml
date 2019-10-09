@@ -1,0 +1,8 @@
+<!--pages/index10/index10.wxml-->
+<swiper indicator-dots indicator-color="blue" indicator-active-color='red' circular interval='1000' autoplay>
+  <swiper-item><image src="../../image/icon_API.png"></image></swiper-item>
+  <swiper-item><image src="../../image/icon_API_HL.png"></image></swiper-item>
+</swiper>
+<navigator  open-type="navigateBack">
+跳转4
+</navigator>

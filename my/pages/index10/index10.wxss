@@ -1,0 +1,9 @@
+/* pages/index10/index10.wxss */
+swiper{
+  width: 100%;
+  height: 150px;
+}
+image{
+  width: 100%;
+  height: 100%
+}

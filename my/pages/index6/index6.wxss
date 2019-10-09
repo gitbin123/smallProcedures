@@ -1,0 +1,9 @@
+/* pages/index6/index6.wxss */
+@import '../index5/index5.wxss';/* 外部引入样式 */
+
+.box{
+    width:100rpx;
+    height:100rpx;
+    background:#001200;
+    color:yellow
+    }

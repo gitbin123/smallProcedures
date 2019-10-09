@@ -1,0 +1,4 @@
+/* pages/index5/index5.wxss */
+.box{
+    font-size:20rpx;
+}

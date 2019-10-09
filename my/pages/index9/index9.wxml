@@ -1,0 +1,4 @@
+<!--pages/index9/index9.wxml-->
+<view class="box">
+<image src="../../image/icon_API.png" mode="top left"></image>
+</view>

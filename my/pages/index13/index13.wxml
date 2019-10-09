@@ -1,0 +1,28 @@
+<!--pages/index13/index13.wxml-->
+<!-- 头部组件 -->
+<bilibiliHeader></bilibiliHeader>
+<!-- 首页导航 -->
+<scroll-view class="title" scroll-x="true">
+    <view class="title-item {{titleClickId==item.id?'title-active':''}}" bindtap="selectTitle" wx:for="{{navList}}" wx:key="{{index}}" data-id="{{item.id}}">
+    {{item.text}}
+    </view>
+</scroll-view>
+<!-- 轮播图 -->
+<view>
+<view class="contant">
+<swiper autoplay circular indicator-dots >
+  <swiper-item wx:for="{{swiperImage}}">
+    <image src="{{item.url}}"></image>
+  </swiper-item>
+</swiper>
+<view class="imglist">
+<navigator  wx:for="{{dataList}}" class="imglistRow" url="../index10/index10?title={{item.text}}" open-type="navigate">
+<view class="imgEach"> <image class="dataListImag"  src="{{item.url}}" ></image></view>
+<view class="imgText">
+<text>{{item.text}}</text>
+</view>
+</navigator>
+</view>
+</view>
+
+</view>

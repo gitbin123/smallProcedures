@@ -1,0 +1,14 @@
+<!--pages/index5/index5.wxml-->
+<view wx:for="{{item}}" wx:key="{{index}}">
+{{index}}-{{item.name}}-{{item.age}}
+</view>
+<view wx:for="{{person}}" wx:key="{{index}}">
+{{index}}:{{item}}
+</view>
+
+<view wx:for="{{item}}" wx:key="{{index}}" wx:for-item="add">
+{{index}}-{{add.name}}-{{add.age}}
+</view>
+<view wx:for="{{person}}" wx:key="{{index}}"  wx:for-index="key">
+{{key}}:{{item}}
+</view>

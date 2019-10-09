@@ -1,0 +1,43 @@
+/* components/bilibiliHeader/bilibiliHeader.wxss */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rpx;
+}
+.header1{
+  flex:2;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header2{
+   flex:5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 5rpx 0 20rpx
+}
+.header2 input{
+  flex: 5
+}
+.header2 image{
+  flex: 1
+}
+.header3{
+   flex:1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header4{
+   flex:2;
+   border-radius: 5rpx;
+   background: pink;
+   color: white;
+   font-size: 30rpx;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5rpx
+}

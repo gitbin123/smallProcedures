@@ -1,0 +1,5 @@
+/* pages/index8/index8.wxss */
+.hoveClass{
+  background: rebeccapurple;
+  font-size: 50rpx
+}

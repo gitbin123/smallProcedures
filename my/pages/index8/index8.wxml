@@ -1,0 +1,4 @@
+<!--pages/index8/index8.wxml-->
+<view hover-class="hoveClass">按下去的样式</view>
+<text selectable>text样式</text>
+<text decode >普&nbsp;通</text>

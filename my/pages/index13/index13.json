@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "bilibiliHeader":"../../components/bilibiliHeader/bilibiliHeader"
+  },
+  "navigationBarTitleText": "bilibili",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black"
+}
