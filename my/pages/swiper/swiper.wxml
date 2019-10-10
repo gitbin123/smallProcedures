@@ -1,0 +1,23 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper autoplay indicator-dots indicator-color="red" indicator-active-color="yellow" current="0" circular bindchange="bindchange">
+  <swiper-item><image src="../../image/bear.jpg"></image></swiper-item>
+  <swiper-item><image src="../../image/icon_API.png"></image></swiper-item>
+  <swiper-item><image src="../../image/icon_API_HL.png"></image></swiper-item>
+</swiper>
+<text>
+autoplay 自动播放view
+indicator-dots 是否显示面板指示点
+indicator-color指示点颜色
+indicator-active-color 选中指示点颜色
+current 当前的所在滑块 
+interval 自动切换时间
+duration 切换滑动时长
+circular 是否采用滑动衔接
+vertical 纵向滑动
+previous-margin 前边距
+next-margin 后边距
+display-multiple-items 同时显示滑块数量
+easing-function 切换动画类型 
+</text>
+
+

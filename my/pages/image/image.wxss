@@ -1,0 +1,10 @@
+.con{
+  width:500rpx;
+  height: 500rpx;
+  background: #ccc;
+  margin-bottom: 100rpx
+}
+.image1{
+  width: 100%;
+  height: 100%
+}

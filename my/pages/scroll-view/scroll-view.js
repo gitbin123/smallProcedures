@@ -1,17 +1,18 @@
-// pages/index10/index10.js
+// pages/scroll-view/scroll-view.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options.title)
+
   },
 
   /**
@@ -61,5 +62,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  scrollLeftTop(){
+    console.log("滚动到左边或者上边了")
+  },
+  scrollRightBttom(){
+    console.log("滚动到右边或者底部了")
   }
+  
 })

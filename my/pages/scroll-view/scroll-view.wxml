@@ -1,0 +1,19 @@
+
+<!-- scroll-y scroll-x  横纵向滚动 -->
+<scroll-view scroll-y>wwwwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档我呜呜呜呜呜呜呜呜无无无无无多无多无多无多</scroll-view>
+
+
+
+
+
+<!-- bindscrolltoupper bindscrolltolower  滚动到上下左右触发  upper-threshold lower-threshold距离四个方位多少距离的时候触发 bindscroll 滚动时触发 scroll-with-animation  位置动画  scroll-into-view 滚动到哪个子元素 优先级大于scroll-top-->
+<scroll-view scroll-y scroll-x bindscrolltoupper="scrollLeftTop" bindscrolltolower="scrollRightBttom" scroll-with-animation scroll-top="500" scroll-into-view="item">wwwwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档wwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档wwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档wwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档wwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档我呜呜呜呜呜呜呜呜无无无无无多无多无多无多
+  <view id="item">wddwdwwdwdwdwdwddwdw</view>
+</scroll-view>
+
+
+<scroll-view  scroll-x bindscrolltoupper="scrollLeftTop" bindscrolltolower="scrollRightBttom" upper-threshold="200">wwwwdwdwd我的文档无我的文档无我单位我的文档无 我的文档我单位文档我我文档我文档我呜呜呜呜呜呜呜呜无无无无无多无多无多无多</scroll-view>
+
+
+
+<!-- scroll-top  scroll-left 设置横纵向滚动条的位置 -->

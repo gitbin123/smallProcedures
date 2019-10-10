@@ -1,6 +1,12 @@
 {
   "pages": [
-      "pages/index13/index13",
+    "pages/swiper/swiper",
+    "pages/scroll-view/scroll-view",
+    "pages/movable-area/movable-area",
+    "pages/cover-view/cover-view",
+    "pages/cover-image/cover-image",
+    "pages/image/image",
+    "pages/index13/index13",
     "pages/index12/index12",
     "pages/index11/index11",
     "pages/index10/index10",

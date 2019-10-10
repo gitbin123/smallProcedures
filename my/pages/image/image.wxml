@@ -1,0 +1,38 @@
+<view class="con">
+<!-- mode scaleToFill 默认 图片宽高自动拉伸填满内容 -->
+    <image src="../../image/bear.jpg" class='image1' mode="scaleToFill"></image>
+</view>
+
+<view class="con">
+<!-- mode aspectFit 缩放模式  图片最长边填充满，另一边保持比例不变适应 完全展现 -->
+    <image src="../../image/bear.jpg" class='image1' mode="aspectFit"></image>
+</view>
+
+<view class="con">
+<!-- mode aspectFill 缩放模式 图片最短边填充满，另一边保持比例不变适应 会发生截取 -->
+    <image src="../../image/bear.jpg" class='image1' mode="aspectFill"></image>
+</view>
+
+<view class="con">
+<!-- mode widthFix 缩放模式  图片宽度填满，高度自适应 比例不变 -->
+    <image src="../../image/bear.jpg" class='image1' mode="widthFix"></image>
+</view>
+
+<view class="con">
+<!-- mode top 裁剪模式  图片上部中间截取 -->
+    <image src="../../image/bear.jpg" class='image1' mode="top"></image>
+</view>
+
+<view class="con">
+<!-- mode bottom 裁剪模式  图片下部中间截取 -->
+    <image src="../../image/bear.jpg" class='image1' mode="bottom"></image>
+</view>
+
+
+<view class="con">
+<!-- mode center 裁剪模式  图片正中间截取 -->
+    <image src="../../image/bear.jpg" class='image1' mode="center"></image>
+</view>
+
+
+top left,top right,bottom left,botton right

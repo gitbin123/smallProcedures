@@ -1,0 +1,6 @@
+
+<map>
+  <cover-image src="../../image/bear.jpg" bindload="imgsuccess" binderror="imgfaile"></cover-image>
+</map>
+覆盖在原生组件之上的图片视图。可覆盖的原生组件同cover-view，支持嵌套在cover-view里。
+可覆盖的原生组件包括 map、video、canvas、camera、live-player、live-pusher

@@ -16,7 +16,7 @@
   </swiper-item>
 </swiper>
 <view class="imglist">
-<navigator  wx:for="{{dataList}}" class="imglistRow" url="../index10/index10?title={{item.text}}" open-type="navigate">
+<navigator  wx:for="{{dataList}}" class="imglistRow" wx:key="{{item.url}}" url="../index10/index10?title={{item.text}}" open-type="navigate">
 <view class="imgEach"> <image class="dataListImag"  src="{{item.url}}" ></image></view>
 <view class="imgText">
 <text>{{item.text}}</text>

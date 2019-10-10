@@ -1,0 +1,7 @@
+/* pages/scroll-view/scroll-view.wxss */
+scroll-view{
+  /* white-space: nowrap; */
+  height: 100rpx;
+  background:wheat;
+  margin-bottom: 50rpx
+}

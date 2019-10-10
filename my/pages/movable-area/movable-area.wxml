@@ -1,0 +1,9 @@
+<!-- 移动方向direction   all、vertical、horizontal、none -->
+movable-view 设置scale的时候  movable-area设置scale-area 可以把区域扩大到当前的里面
+<movable-area scale-area>
+    <movable-view direction="all" scale="true"></movable-view>
+</movable-area>
+
+<!-- <movable-area>
+    <movable-view direction="all" ></movable-view>
+</movable-area> -->
